@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEBCD;
+}
+
+.area-jogo {
+    position: relative; 
+    width: 90%; 
+    height: 90%;
+    background-color: #9999FF;
+    max-width: 1200px;
+    max-height: 800px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw;
+    text-align: center;
+    margin: 10px 0;
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+#ta-amarrado { 
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px; 
+    font-size: 1.5vw;
+    border: 2px solid red;
+    background-color: #66FF00;
+}
+
+text{
+text-align: center;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+@keyframes anima {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw; /* Aumenta o tamanho do texto em telas menores */
+    }
+
+    img {
+        width: 60vw; /* Ajusta a largura da imagem */
+        max-width: 300px; /* Limita o tamanho */
+    }
+
+    #ta-amarrado {
+        font-size: 2.5vw; /* Ajusta o tamanho do texto do botão */
+    }
+
+    .area-jogo {
+        width: 95%; /* Reduz a largura */
+        height: 85%; /* Reduz a altura */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 8vw; /* Ajusta ainda mais para telas muito pequenas */
+    }
+
+    img {
+        width: 80vw;
+        max-width: 250px;
+    }
+
+    #ta-amarrado {
+        font-size: 3.5vw;
+        padding: 8px 16px;
+    }
+}
+
+h1 {
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
