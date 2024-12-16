@@ -36,3 +36,5 @@ Conceitos Envolvidos
 - Eventos de mouse (mousemove, click).
 Manipulação de estilos (style.top, style.left).
 Cálculo de posições aleatórias.
+
+## Link para acesso ao jogo:  https://janderson-rodrigues.github.io/Fliperama/
