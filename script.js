@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function falaTexto(tag, texto) {
     let campo = document.querySelector(tag);
-    campo = texto;
+    campo.textContent = texto;
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.0});
 }
 
