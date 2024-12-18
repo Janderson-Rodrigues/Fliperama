@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         imagem.setAttribute("src", "MIDIAS/eleaceita.jpg");
         responsiveVoice.speak("Gente ele está muito emocionado, eu vou responder por ele. ele aceita", 'Brazilian Portuguese Female', {rate:1.0});
-    }, 20000);
+    }, 15000);
     
 });
 
