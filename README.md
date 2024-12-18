@@ -10,7 +10,7 @@ Módulo Intermediário.
 - Anildo da Silva Gomes.
 - Anderson Oliveira de Sousa.
 - Ivan Magalhães.
-- Janderson Carneiro Rodrigues
+- Janderson Carneiro Rodrigues.
 
 ---
 
